@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import logReducer from './logReducer';
 import techReducer from './techReducer';
+import loginuserReducer from './loginuserReducer'
 
 export default combineReducers({
   log: logReducer,
-  tech: techReducer
+  tech: techReducer,
+  login: loginuserReducer
 });

@@ -12,3 +12,9 @@ export const GET_TECHS = 'GET_TECHS';
 export const ADD_TECH = 'ADD_TECH';
 export const DELETE_TECH = 'DELETE_TECH';
 export const TECHS_ERROR = 'TECHS_ERROR';
+export const ADD_LOGIN_USER = 'ADD_LOGIN_USER';
+export const ADD_LOGIN_USER_ERR = 'ADD_LOGIN_USER_ERR';
+export const GET_LOGINUSER = 'GET_LOGINUSER';
+export const GET_USER_ERROR = 'GET_USER_ERROR';
+
+  

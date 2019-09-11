@@ -23,6 +23,20 @@ const AddBtn = () => {
             <i className='material-icons'>person_add</i>
           </a>
         </li>
+
+        <li>
+          <a href='#add-login-modal' className='btn-floating cyan modal-trigger'>
+            <i className='material-icons'>account_box</i>
+          </a>
+        </li>
+
+        <li>
+          <a href='#login-list-modal' className='btn-floating cyan modal-trigger'>
+            <i className='material-icons'>people_outline</i>
+          </a>
+        </li>
+
+        
       </ul>
     </div>
   );

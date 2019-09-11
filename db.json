@@ -27,6 +27,13 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "Test first log",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-09-04T16:59:28.525Z",
+      "id": 5
     }
   ],
   "techs": [
@@ -44,6 +51,33 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Ishan",
+      "lastName": "Patil",
+      "id": 4
+    }
+  ],
+  "loginuser": [
+    {
+      "loginuser": "test",
+      "password": "test",
+      "id": 1
+    },
+    {
+      "loginuser": "test1",
+      "password": "test1",
+      "id": 2
+    },
+    {
+      "loginuser": "tetst",
+      "password": "asdsad",
+      "id": 3
+    },
+    {
+      "loginuser": "test",
+      "password": "test",
+      "id": 4
     }
   ]
 }

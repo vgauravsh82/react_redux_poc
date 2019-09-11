@@ -6,6 +6,9 @@ import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechListModal from './components/techs/TechListModal';
+import AddLoginUser from './components/techs/AddLoginUser';
+import LoginUsers from './components/techs/LoginUsers';
+
 import { Provider } from 'react-redux';
 import store from './store';
 
@@ -28,6 +31,8 @@ const App = () => {
           <EditLogModal />
           <AddTechModal />
           <TechListModal />
+          <AddLoginUser />
+          <LoginUsers />
           <Logs />
         </div>
       </Fragment>
