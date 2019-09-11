@@ -1,3 +1,6 @@
+Repository created from https://github.com/bradtraversy/it-logger
+1) As part of POC new entity loginuser introduced and corresponding functionality implemented.
+
 # ITLogger
 
 > React app to track IT department tasks and issues. Uses JSON-Server as a mock backend. This is part of my React course on Udemy
