@@ -5,23 +5,23 @@ import { addLoginUser } from '../../actions/techActions';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddLoginUser = ({ addLoginUser }) => {
-  const [loginuser, setLoginUser] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState('');
+  const [lastname, setLastname] = useState('');
 
   const onSubmit = () => {
-    if (loginuser === '' | password === '') {
+    if (username === '' | lastname === '') {
       M.toast({ html: 'Please enter valid login user' });
     } else {
       addLoginUser({
-        loginuser,
-        password
+        username,
+        lastname
       });
 
-      M.toast({ html: `${loginuser} was added as a user login` });
+      M.toast({ html: `${username} was added as a user login` });
 
       // Clear Fields
-      setLoginUser('');
-      setPassword('');
+      setUsername('');
+      setLastname('');
     }
   };
 
@@ -33,12 +33,12 @@ const AddLoginUser = ({ addLoginUser }) => {
           <div className='input-field'>
             <input
               type='text'
-              name='loginuser'
-              value={loginuser}
-              onChange={e => setLoginUser(e.target.value)}
+              name='username'
+              value={username}
+              onChange={e => setUsername(e.target.value)}
             />
-            <label htmlFor='loginuser' className='active'>
-              Login user Id
+            <label htmlFor='username' className='active'>
+              Username
             </label>
           </div>
         </div>
@@ -46,15 +46,16 @@ const AddLoginUser = ({ addLoginUser }) => {
         <div className='row'>
           <div className='input-field'>
             <input
-              type='password'
-              name='password'
-              value={password}
-              onChange={e => setPassword(e.target.value)}
+              type='text'
+              name='lastname'
+              value={lastname}
+              onChange={e => setLastname(e.target.value)}
             />
-            <label htmlFor='password' className='active'>
-              Password
+            <label htmlFor='lastname' className='active'>
+              Last Name
             </label>
           </div>
+
         </div>
       </div>
       <div className='modal-footer'>

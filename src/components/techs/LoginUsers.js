@@ -13,7 +13,13 @@ const LoginUsers = ({ getLoginUsers, loginuser: { loginusers, loading } }) => {
     <div id='login-list-modal' className='modal'>
       <div className='modal-content'>
         <h4>Login User List</h4>
-        <i className='material-icons grey-text'>delete</i>
+        {loginusers.map(u => (
+          <ul>
+          <li>{u.username}, {u.lastname}</li>
+          
+          </ul>
+        ))}
+        
       </div>
     </div>
   );

@@ -60,24 +60,34 @@
   ],
   "loginuser": [
     {
-      "loginuser": "test",
-      "password": "test",
+      "username": "test",
+      "lastname": "test",
       "id": 1
     },
     {
-      "loginuser": "test1",
-      "password": "test1",
+      "username": "test1",
+      "lastname": "test1",
       "id": 2
     },
     {
-      "loginuser": "tetst",
-      "password": "asdsad",
+      "username": "tetst",
+      "lastname": "asdsad",
       "id": 3
     },
     {
-      "loginuser": "test",
-      "password": "test",
+      "username": "test",
+      "lastname": "test",
       "id": 4
+    },
+    {
+      "username": "test",
+      "lastname": "test",
+      "id": 5
+    },
+    {
+      "username": "checkTest",
+      "lastname": "test1",
+      "id": 6
     }
   ]
 }
